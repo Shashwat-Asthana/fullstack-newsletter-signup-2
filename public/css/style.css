@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+  background-color: #f4f7fb; /* Light gray background for better contrast */
+}
+
+.form-signin {
+  max-width: 400px; /* Slightly wider for better spacing */
+  padding: 2rem; /* More padding for a cleaner look */
+  margin-top: 5rem; /* Center the form vertically */
+  background-color: #8e83c3; /* White background for the form */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.form-signin img {
+  margin-bottom: 1.5rem; /* More space below the image */
+  border-radius: 20%;
+}
+
+.form-signin h1 {
+  font-size: 1.75rem; /* Slightly larger font for the heading */
+  margin-bottom: 1rem; /* More space below the heading */
+}
+
+.form-signin .form-control {
+  margin-bottom: 1rem; /* Space between inputs */
+}
+
+
+
+
+.form-signin button {
+  font-size: 1.2rem; /* Larger font for the button */
+  font-weight: bold; /* Bold text for the button */
+  background-color: #007bff; /* Bootstrap primary color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for the button */
+}
+
+.form-signin button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+
+@media (max-width: 576px) {
+  .form-signin {
+    padding: 1rem; /* Adjust padding on small screens */
+    margin-top: 2rem; /* Adjust margin on small screens */
+  }
+
+  .form-signin h1 {
+    font-size: 1.5rem; /* Adjust heading size on small screens */
+  }
+
+  .form-signin button {
+    font-size: 1rem; /* Adjust button size on small screens */
+  }
+}
+
