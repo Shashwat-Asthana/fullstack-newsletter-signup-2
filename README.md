@@ -12,6 +12,6 @@ This repository contains a web page for newsletter signup, integrated with the M
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript (or a frontend framework like React, Vue.js)
+- **Frontend**: HTML, CSS, JavaScript 
 - **Mailchimp API**: Integrates with the Mailchimp API to handle newsletter subscriptions.
-- **Deployment**: Hosted on a web server or a platform like GitHub Pages, Netlify, etc., for public access.
+- 
